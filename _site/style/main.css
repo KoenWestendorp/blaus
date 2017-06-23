@@ -396,11 +396,24 @@ header {
   background-color: #fdfdfd; }
   header .logo {
     height: 100%;
-    width: 200px;
-    display: flex;
-    flex-direction: columns;
-    justify-content: center;
-    align-content: center; }
+    width: 200px; }
+    header .logo a, header .logo a:visited {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      text-decoration: none;
+      font-family: HelveticaNeue;
+      font-weight: bold;
+      font-size: 32px;
+      color: #3f00ff; }
+    header .logo:hover {
+      background-color: #3f00ff; }
+      header .logo:hover a {
+        text-decoration: none;
+        color: white; }
 
 body {
   margin: 0px;
